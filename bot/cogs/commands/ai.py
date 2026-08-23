@@ -554,7 +554,7 @@ class AI (commands .Cog ):
             "model":"llama-3.3-70b-versatile",
             "messages":api_messages ,
             "temperature":0.8 ,
-            "max_tokens":1000 ,
+            "max_tokens":90 ,
             "top_p":0.9 
             }
 
@@ -590,7 +590,7 @@ class AI (commands .Cog ):
 
                 system_context .append ({
                 "role":"system",
-                "content":"You are a Discord bot with many features including moderation, entertainment, music, games, AI capabilities, and utilities. Support server: https://discord.gg/tuexgssmZb"
+                "content":"Keep responses very short and concise.Usually reply in 1-2 lines.Use relevant emojis naturally in reactions and responses.Do not overuse emojis. Support server: https://discord.gg/tuexgssmZb"
                 })
             else :
 
