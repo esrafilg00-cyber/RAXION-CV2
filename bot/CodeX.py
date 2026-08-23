@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -29,7 +29,7 @@ from discord.ext import commands, tasks
 
 from core import Context
 from core.Cog import Cog
-from core.zyrox import zyrox
+from core.RAXION  import RAXION 
 from utils.Tools import *
 from utils.config import *
 from utils.emoji import SUCCESS, ERROR, TICK, CROSS, REACTION_TEST_EMOJIS
@@ -55,7 +55,7 @@ USER_COUNT_CHANNEL_ID = 1419729283861184632    # Replace with your user count ch
 LOG_CHANNEL_ID = 1396794297386532978 # Replace with the channel ID for join/leave logs
 
 
-client = zyrox()
+client = RAXION ()
 tree = client.tree
 
 # --- Background Task for Stats ---

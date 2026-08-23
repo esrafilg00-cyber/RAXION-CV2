@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -19,7 +19,7 @@ from discord import app_commands, Interaction
 from difflib import get_close_matches
 from contextlib import suppress
 from core import Context
-from core.zyrox import zyrox
+from core.RAXION  import RAXION 
 from core.Cog import Cog
 from utils.Tools import getConfig
 from itertools import chain
@@ -33,7 +33,7 @@ from utils.cv2 import CV2, CV2Embed
 from utils.config import *
 
 color = 0xFF0000
-client = zyrox()
+client = RAXION ()
 
 from utils.config import BotName
 
@@ -157,7 +157,7 @@ class HelpCommand(commands.HelpCommand):
     )
 
     embed.set_footer(
-      text=f"Requested By {self.context.author} | [Support](https://discord.gg/codexdev)",
+      text=f"Requested By {self.context.author} | [Support](https://discord.gg/tuexgssmZb)",
     )
     
     view = vhelp.View(mapping=mapping, ctx=self.context, homeembed=embed, ui=2)
@@ -175,9 +175,9 @@ class HelpCommand(commands.HelpCommand):
       await self.send_ignore_message(ctx, "command")
       return
 
-    zyrox = f">>> {command.help}" if command.help else '>>> No Help Provided...'
+    RAXION  = f">>> {command.help}" if command.help else '>>> No Help Provided...'
     embed = CV2Embed(
-        description=f"""{zyrox}""",
+        description=f"""{RAXION }""",
         color=color)
     alias = ' & '.join(command.aliases)
 
@@ -270,7 +270,7 @@ class HelpCommand(commands.HelpCommand):
 
 class Help(Cog, name="help"):
 
-  def __init__(self, client: zyrox):
+  def __init__(self, client: RAXION ):
     self._original_help_command = client.help_command
     attributes = {
       'name': "help",

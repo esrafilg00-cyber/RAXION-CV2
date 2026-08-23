@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -15,7 +15,7 @@
 import discord
 from discord.ext import commands
 import os
-from core import Cog, zyrox, Context
+from core import Cog, RAXION , Context
 import games as games
 from utils.Tools import *
 from utils.cv2 import CV2
@@ -26,9 +26,9 @@ import asyncio
 
 
 class Games(Cog):
-    """Zyrox Games"""
+    """RAXION  Games"""
 
-    def __init__(self, client: zyrox):
+    def __init__(self, client: RAXION ):
         self.client = client
 
 

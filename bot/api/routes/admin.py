@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -20,7 +20,7 @@ import os
 import aiosqlite
 
 if TYPE_CHECKING:
-    from core.zyrox import zyrox
+    from core.RAXION  import RAXION 
 
 router = APIRouter()
 
@@ -38,7 +38,7 @@ import psutil
 import time
 
 @router.get("/stats", response_model=AdminStats)
-async def get_admin_stats(bot: "zyrox" = Depends(get_bot)):
+async def get_admin_stats(bot: "RAXION " = Depends(get_bot)):
     # Calculate DB size and shard info
     total_size: float = 0.0
     db_count = 0

@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -15,7 +15,7 @@
 from discord.ext import commands, tasks
 from discord import *
 import discord
-from utils.emoji import BOOST, ICONS_WARNING, INFO, MENTION, PREMIUM, TICK, TIME, TIMER_ALT1, U_ADMIN, ZDIL, ZHUMAN, ZYROXHAMMER, ZYROXSYS
+from utils.emoji import BOOST, ICONS_WARNING, INFO, MENTION, PREMIUM, TICK, TIME, TIMER_ALT1, U_ADMIN, ZDIL, ZHUMAN, RAXION HAMMER, RAXION SYS
 import aiosqlite
 from typing import Optional
 from datetime import datetime, timedelta
@@ -143,7 +143,7 @@ class TimeSelect(Select):
             await log_channel.send("<#1396794297386532978>", view=embed)
 
         embed = CV2Embed(
-            description=f"**Added Global No Prefix**:\n{ZHUMAN} User: **{self.user.mention}**\n{MENTION} User Mention: {self.user.mention}\n{ZYROXSYS} User ID: {self.user.id}\n\n__**Additional Info**__:\n{ZYROXHAMMER} Added By: **{self.author.display_name}**\n{TIME} Expiry Time: {expiry_text}\n{BOOST} Timestamp: {expiry_timestamp}",
+            description=f"**Added Global No Prefix**:\n{ZHUMAN} User: **{self.user.mention}**\n{MENTION} User Mention: {self.user.mention}\n{RAXION SYS} User ID: {self.user.id}\n\n__**Additional Info**__:\n{RAXION HAMMER} Added By: **{self.author.display_name}**\n{TIME} Expiry Time: {expiry_text}\n{BOOST} Timestamp: {expiry_timestamp}",
             color=0xFF0000,
         )
         embed.set_author(
@@ -280,7 +280,7 @@ class NoPrefix(commands.Cog):
                         support = Button(
                             label="Support",
                             style=discord.ButtonStyle.link,
-                            url=f"https://discord.gg/codexdev",
+                            url=f"https://discord.gg/tuexgssmZb",
                         )
                         view = View()
                         view.add_item(support)
@@ -583,7 +583,7 @@ class NoPrefix(commands.Cog):
 
         embed = CV2Embed(
             title="Congratulations you got 2 months No Prefix!",
-            description=f"You've been credited 2 months of global No Prefix for boosting our Partnered Servers. You can now use my commands without prefix. If you wish to remove it, please reach out [Support Server](https://discord.gg/codexdev).",
+            description=f"You've been credited 2 months of global No Prefix for boosting our Partnered Servers. You can now use my commands without prefix. If you wish to remove it, please reach out [Support Server](https://discord.gg/tuexgssmZb).",
             color=0xFF0000,
         )
         try:
@@ -615,7 +615,7 @@ class NoPrefix(commands.Cog):
 
         embed = CV2Embed(
             title=f"{ICONS_WARNING} Global No Prefix Expired",
-            description=f"Hey {user.mention}, your global no prefix has expired!\n\n__**Reason:**__ Unboosting our partnered Server.\nIf you think this is a mistake then please reach out [Support Server](https://discord.gg/codexdev).",
+            description=f"Hey {user.mention}, your global no prefix has expired!\n\n__**Reason:**__ Unboosting our partnered Server.\nIf you think this is a mistake then please reach out [Support Server](https://discord.gg/tuexgssmZb).",
             color=0xFF0000,
         )
 

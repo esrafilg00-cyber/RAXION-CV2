@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -14,7 +14,7 @@
 
 import asyncio
 import discord
-from utils.emoji import CROSS, TICK, ZWARNING, ZYROXCONNECTION, ZYROXLINKS
+from utils.emoji import CROSS, TICK, ZWARNING, RAXION CONNECTION, RAXION LINKS
 from discord.ext import commands, tasks
 from discord.utils import get
 import datetime
@@ -391,8 +391,8 @@ class General(commands.Cog):
   async def invite(self, ctx: commands.Context):
       invite_text = (
           "```Empower your server with blazing-fast features and 24/7 support!```\n"
-          f"{ZYROXLINKS} **Quick Actions**\n"
+          f"{RAXION LINKS} **Quick Actions**\n"
           f">>> **[Invite {BotName}](https://discord.com/oauth2/authorize?client_id=1396114795102470196&permissions=8&integration_type=0&scope=bot+applications.commands)**\n"
-          "**[Support Server](https://discord.gg/codexdev)**"
+          "**[Support Server](https://discord.gg/tuexgssmZb)**"
       )
-      await ctx.send(view=CV2(f"{ZYROXCONNECTION} {BotName} Integration Hub!", invite_text))
+      await ctx.send(view=CV2(f"{RAXION CONNECTION} {BotName} Integration Hub!", invite_text))

@@ -6,14 +6,14 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
 # ╚══════════════════════════════════════════════════════════════════╝
 
 import discord
-from utils.emoji import CODEBASE, LOADING, SYSTEM, THUNDER, ZYROX_CODE, ZYROX_COMMAND, ZYROX_GLOBAL, ZYROX_OWNER, ZYROX_SEARCH
+from utils.emoji import CODEBASE, LOADING, SYSTEM, THUNDER, RAXION _CODE, RAXION _COMMAND, RAXION _GLOBAL, RAXION _OWNER, RAXION _SEARCH
 import psutil
 import sys
 import os
@@ -60,27 +60,27 @@ def create_stats_content(stats_data, selected):
             f"**{SYSTEM} Hardware**\n"
             f"Cpu Usage: **{stats_data['cpu']}%**\n"
             f"Ram Usage: **{stats_data['ram']}%**\n\n"
-            f"**{ZYROX_CODE} Software**\n"
+            f"**{RAXION _CODE} Software**\n"
             f"Python: **{sys.version_info.major}.{sys.version_info.minor}**\n"
             f"Discord.py: **{discord.__version__}**"
         ),
         "General Info": (
             f"**Uptime**: `{stats_data['uptime']}`\n\n"
-            f"**{ZYROX_GLOBAL} Server Stats**\n"
+            f"**{RAXION _GLOBAL} Server Stats**\n"
             f"Guilds: **{stats_data['guilds']}**\n"
             f"Users: **{stats_data['users']}**\n\n"
-            f"**{ZYROX_COMMAND} Commands Stats**\n"
+            f"**{RAXION _COMMAND} Commands Stats**\n"
             f"Total Commands: **{stats_data['all_cmds']}**\n"
             f"Slash Commands: **{stats_data['slash_cmds']}**"
         ),
         "Team Info": (
             "There is only one person who made me. Thanks to him ❤️.\n\n"
-            f"**{ZYROX_OWNER} Main Owner**\n"
+            f"**{RAXION _OWNER} Main Owner**\n"
             "[01]. [runxking](https://discord.com/users/767979794411028491)\n"
             "[02]. [Ray](https://discord.com/users/870179991462236170)"
         ),
         "Code Info": (
-            f"**{ZYROX_SEARCH} Codebase Overview**\n\n"
+            f"**{RAXION _SEARCH} Codebase Overview**\n\n"
             f"Files: **{stats_data['files']}**\n"
             f"Lines: **{stats_data['lines']}**\n"
             f"Words: **{stats_data['words']}**"
@@ -110,7 +110,7 @@ class StatsView(LayoutView):
                 ),
                 discord.SelectOption(
                     label="General Info",
-                    emoji=ZYROX_GLOBAL,
+                    emoji=RAXION _GLOBAL,
                     description="General info",
                 ),
                 discord.SelectOption(
@@ -120,7 +120,7 @@ class StatsView(LayoutView):
                 ),
                 discord.SelectOption(
                     label="Code Info",
-                    emoji=ZYROX_SEARCH,
+                    emoji=RAXION _SEARCH,
                     description="Code stats",
                 ),
             ],

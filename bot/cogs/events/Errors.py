@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -17,11 +17,11 @@ import json
 import aiosqlite
 from discord.ext import commands
 from utils.config import serverLink
-from core import zyrox, Cog, Context
+from core import RAXION , Cog, Context
 from utils.Tools import get_ignore_data
 
 class Errors(Cog):
-  def __init__(self, client: zyrox):
+  def __init__(self, client: RAXION ):
     self.client = client
 
   @commands.Cog.listener()

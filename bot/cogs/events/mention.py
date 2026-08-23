@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -15,7 +15,7 @@
 from utils import getConfig
 from utils.config import BotName
 import discord
-from utils.emoji import ARROWRED, CODEBASE, HEART3, INDEX, ZYROXLINKS
+from utils.emoji import ARROWRED, CODEBASE, HEART3, INDEX, RAXION LINKS
 from discord.ui import LayoutView, TextDisplay, Separator, Container, ActionRow, Select
 from discord.ext import commands
 from utils.Tools import get_ignore_data
@@ -44,7 +44,7 @@ class MentionSelectView(LayoutView):
                 ),
                 discord.SelectOption(
                     label="Links",
-                    emoji=ZYROXLINKS,
+                    emoji=RAXION LINKS,
                     description="Useful bot links",
                 ),
             ],
@@ -88,7 +88,7 @@ class MentionSelectView(LayoutView):
         elif selected == "Links":
             content = (
                 f"**[Invite {BotName}](https://discord.com/oauth2/authorize?client_id=1396114795102470196)**\n"
-                "**[Join Support Server](https://discord.gg/codexdev)**"
+                "**[Join Support Server](https://discord.gg/tuexgssmZb)**"
             )
 
         new_container = Container(

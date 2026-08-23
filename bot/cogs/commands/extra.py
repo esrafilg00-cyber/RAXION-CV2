@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -30,7 +30,7 @@ from typing import *
 from utils import *
 from utils.config import BotName, serverLink
 from utils import Paginator, DescriptionEmbedPaginator, FieldPagePaginator, TextPaginator
-from core import Cog, zyrox, Context
+from core import Cog, RAXION , Context
 from typing import Optional
 import aiosqlite 
 import asyncio

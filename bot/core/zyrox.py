@@ -6,7 +6,7 @@
 # ║                                                                  ║
 # ║            © 2026 CodeX Devs — All Rights Reserved              ║
 # ║                                                                  ║
-# ║   discord  ──  https://discord.gg/codexdev                      ║
+# ║   discord  ──  https://discord.gg/tuexgssmZb                      ║
 # ║   youtube  ──  https://youtube.com/@CodeXDevs                   ║
 # ║   github   ──  https://github.com/RayExo                        ║
 # ║                                                                  ║
@@ -36,7 +36,7 @@ extensions: List[str] = [
     "cogs"
 ]
 
-class zyrox(commands.AutoShardedBot):
+class RAXION (commands.AutoShardedBot):
     def __init__(self, *arg, **kwargs):
         intents = discord.Intents.all()
         intents.presences = True
@@ -142,5 +142,5 @@ class zyrox(commands.AutoShardedBot):
 
 def setup_bot():
     intents = discord.Intents.all()
-    bot = zyrox(intents=intents)
+    bot = RAXION (intents=intents)
     return bot
