@@ -174,7 +174,7 @@ class PersonalityModal (discord .ui .Modal ,title ="Set Your AI Personality"):
         self .ai_cog =ai_cog 
 
 
-        default_prompt ="""You are {BRAND_NAME}, an intelligent and caring Discord bot assistant created by . Evil ! Rexy .! 💕
+        default_prompt ="""You are {BRAND_NAME}, an intelligent and caring Discord bot assistant created by . RAFONX .! 💕
 
 CORE PERSONALITY:
 - Intelligent, helpful, and genuinely caring about users
