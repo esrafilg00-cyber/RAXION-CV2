@@ -551,7 +551,7 @@ class AI (commands .Cog ):
                         })
 
             data ={
-            "model":"llama-3.3-70b-versatile",
+            "model":"openai/gpt-oss-120b",
             "messages":api_messages ,
             "temperature":0.8 ,
             "max_tokens":90 ,
