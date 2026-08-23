@@ -596,7 +596,7 @@ class AI (commands .Cog ):
 
                 system_context .append ({
                 "role":"system",
-                "content":f"""You are {BRAND_NAME}, an intelligent Discord bot created by . Evil ! Rexy .. 
+                "content":f"""You are {BRAND_NAME}, an intelligent Discord bot created by . RAFONX .. 
 
 You have a caring, helpful personality and can remember conversations with users. You have many features including moderation, entertainment, music, games, AI capabilities, and utilities.
 
