@@ -13,7 +13,7 @@
 # ╚══════════════════════════════════════════════════════════════════╝
 
 from __future__ import annotations
-from core import RAXION 
+from core import Raxion 
 from colorama import Fore, Style, init
 
 
